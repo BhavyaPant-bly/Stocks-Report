@@ -1,0 +1,50 @@
+#container{
+    display:flex;
+    margin: 5.5rem 10rem;
+    /* padding:3rem 3rem; */
+}
+#profitloss{
+    display:none;
+    background-color:rgb(236, 228, 228, 0.45);
+    width:60%;
+}
+body{
+    color:white;
+}
+#stock{
+   width:90%;
+   padding:3rem;
+   background-color: rgba(62, 7, 124, 0.70);
+   background-image: url('/images/stock.svg') ;
+   background-repeat: no-repeat;
+   background-size:contain;
+}
+input{
+    /* border:none; */
+    /* border-color: transparent; */
+    background:none;
+    color:white;
+    height:3rem;
+    font-size: 1rem;
+}
+/* input:type:submit{
+ background-color:grey;
+ color:black;
+} */
+::placeholder{
+    color:white;
+    opacity:1;
+}
+#connect{
+    width:10%;
+    /* border: 2px solid rgb(248, 198, 106,0.65); */
+    text-align: center ;
+    padding:3rem;
+    background-color:rgba(231, 170, 57, 0.65);
+    font-size: 150%;
+   }
+.link {
+    text-decoration: none;
+    /* padding: 0.5rem 1rem; */
+    color: white;
+}
