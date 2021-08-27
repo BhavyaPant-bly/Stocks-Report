@@ -67,11 +67,12 @@ input{
     }
 
     #connect{
-        width:80%;
-        font-size: 120%;
+        width:95%;
+        font-size: 100%;
+        padding:1rem;
        } 
-       .link {
-        padding: 0.5rem 1rem;
+    .link {
+        padding: 0rem 0.5rem;
     }
     #stock{
         width:80%;
