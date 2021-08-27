@@ -65,7 +65,7 @@ input{
     input{
         height:2rem;
         width:50%;
-        font-size: 90%;
+        font-size: 100%;
     }
 
     #connect{
@@ -84,7 +84,7 @@ input{
     }
 
     h3{
-        font-size: 80%;
+        font-size: 90%;
     }
      
 }
