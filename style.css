@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+:root {
+    --primary-color:rgba(160, 104, 224, 0.7);
+    --sec-color:rgba(231, 170, 57, 0.65);
+    --ter-color:white;
+}
+
+
+
 #container{
     display:flex;
-    margin: 5.5rem 10rem;
-    /* padding:3rem 3rem; */
+    margin: 0% 10%;
 }
 #profitloss{
     display:none;
@@ -9,21 +17,21 @@
     width:60%;
 }
 body{
-    color:white;
+    color:var(--ter-color);
 }
 #stock{
    width:90%;
    padding:3rem;
-   background-color: rgba(62, 7, 124, 0.70);
+   background-color: var(--primary-color);
    background-image: url('/images/stock.svg') ;
    background-repeat: no-repeat;
    background-size:contain;
 }
 input{
     /* border:none; */
-    /* border-color: transparent; */
+    border-color: var(--ter-color);
     background:none;
-    color:white;
+    color:var(--ter-color);
     height:3rem;
     font-size: 1rem;
 }
@@ -32,7 +40,7 @@ input{
  color:black;
 } */
 ::placeholder{
-    color:white;
+    color:var(--ter-color);
     opacity:1;
 }
 #connect{
@@ -40,11 +48,36 @@ input{
     /* border: 2px solid rgb(248, 198, 106,0.65); */
     text-align: center ;
     padding:3rem;
-    background-color:rgba(231, 170, 57, 0.65);
+    background-color:var(--sec-color);
     font-size: 150%;
    }
 .link {
     text-decoration: none;
-    /* padding: 0.5rem 1rem; */
-    color: white;
+    color: var(--ter-color);
+}
+
+
+@media screen and (max-width:680px){
+    #container{
+        display:inline-block;
+        margin: 0%;
+    }
+    input{
+        height:2rem;
+    }
+
+    #connect{
+        width:80%;
+        font-size: 120%;
+       } 
+       .link {
+        padding: 0.5rem 1rem;
+    }
+    #stock{
+        width:80%;
+    }
+    #profitloss{
+        width:90%
+    }
+     
 }
