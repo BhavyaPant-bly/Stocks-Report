@@ -67,14 +67,16 @@ input{
     }
 
     #connect{
-        width:80%;
+        width:90%;
         font-size: 120%;
+        padding:1.5rem;
        } 
-       .link {
+    .link {
         padding: 0.5rem 1rem;
     }
     #stock{
-        width:80%;
+        width:90%;
+        padding:1.5rem;
     }
     #profitloss{
         width:90%
