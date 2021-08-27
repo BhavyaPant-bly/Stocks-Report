@@ -48,7 +48,7 @@ input{
     /* border: 2px solid rgb(248, 198, 106,0.65); */
     text-align: center ;
     padding:3rem;
-    background-color:var(--sec-color);
+    background-color:rgba(231, 170, 57, 0.65);
     font-size: 150%;
    }
 .link {
@@ -67,16 +67,14 @@ input{
     }
 
     #connect{
-        width:90%;
+        width:80%;
         font-size: 120%;
-        padding:1.5rem;
        } 
-    .link {
+       .link {
         padding: 0.5rem 1rem;
     }
     #stock{
-        width:90%;
-        padding:1.5rem;
+        width:80%;
     }
     #profitloss{
         width:90%
