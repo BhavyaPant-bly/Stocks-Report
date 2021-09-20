@@ -13,7 +13,7 @@
 }
 #profitloss{
     display:none;
-    background-color:rgb(236, 228, 228, 0.45);
+    background-color:rgba(62, 7, 124, 0.70);
     width:60%;
 }
 body{
@@ -28,8 +28,7 @@ body{
    background-size:contain;
 }
 input{
-    /* border:none; */
-    border-color: var(--ter-color);
+    border-color:var(--ter-color);
     background:none;
     color:var(--ter-color);
     height:3rem;
